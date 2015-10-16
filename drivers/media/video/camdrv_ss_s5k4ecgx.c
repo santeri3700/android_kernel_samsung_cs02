@@ -24,8 +24,8 @@
 #include <media/soc_camera.h>
 #include <linux/videodev2_brcm.h>
 #include <mach/clock.h>
-#include <camdrv_ss.h>
-#include <camdrv_ss_s5k4ecgx.h>           
+#include "camdrv_ss.h"
+#include "camdrv_ss_s5k4ecgx.h"
 
 #define S5K4ECGX_NAME	"s5k4ecgx"
 #define SENSOR_ID 2

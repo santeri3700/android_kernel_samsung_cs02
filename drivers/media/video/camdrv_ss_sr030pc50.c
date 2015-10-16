@@ -14,8 +14,8 @@
 #include <media/soc_camera.h>
 #include <linux/videodev2_brcm.h>
 #include <mach/clock.h>
-#include <camdrv_ss.h>
-#include <camdrv_ss_sr030pc50.h>
+#include "camdrv_ss.h"
+#include "camdrv_ss_sr030pc50.h"
 
 
 #define SR030PC50_NAME	"sr030pc50"
@@ -27,7 +27,7 @@
 #define VCAM0_IO_1_8V_REGULATOR_NEEDED
 #define VCAM_CORE_1_2V_REGULATOR_NEEDED
 
-extern inline struct camdrv_ss_state *to_state(struct v4l2_subdev *sd);
+extern struct camdrv_ss_state *to_state(struct v4l2_subdev *sd);
 
 
 
